@@ -36,6 +36,8 @@ function render(variables = {}) {
           <h1>${variables.name || ""} ${variables.lastname || ""}</h1>
           <h2>${variables.role || ""}</h2>
           <h3>${variables.city || ""}</h3>
+          <h3>${variables.country || ""}</h3>
+          
           <ul class="position-right">
             ${
               variables.twitter
